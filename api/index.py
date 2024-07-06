@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask Vercel Example - Hello World from acer side", 200
+    return "Flask Vercel Example - Hello World from hp side", 200
 
 
 @app.errorhandler(404)
